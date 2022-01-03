@@ -6,14 +6,14 @@
   width: 80%;
   margin: 0 auto;
 }
-
-header::after {
+/* Old Nav Bar Starts here */
+/*header::after {
   content: "";
   display: table;
   clear: both;
-}
+} */
 
-.logo {
+/*.logo {
   float: right;
 }
 img {
@@ -24,17 +24,77 @@ img {
 
 nav {
   float: right;
+}*/
+
+/*nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}*/
+
+/*nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 30px;
+  font-size: 15px;
+  font-family: Roboto;
+  font-weight: 600;
+}*/
+
+/*nav a {
+  color: #7a7a7a;
+  text-decoration: none;
 }
 
-nav ul {
+nav a:hover {
+  color: #ff8a16;
+} */ /* Old Nav Bar Ends here */
+
+/* Nav Bar Starts Here */
+/* Flexbox Contatiner for Nav Bar */
+.flex-container1 {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-container1 > div {
+  width: 100px;
+  margin: 0px;
+  margin-left: 0px;
+  text-align: center;
+  line-height: 80px;
+  font-size: 30px;
+}
+/* Logo */
+img {
+  margin-top: 15px;
+  margin-left: 80px;
+  margin-right: 0px;
+  margin-bottom: 15px;
+  max-width: 120px;
+  max-height: 120px;
+}
+
+/* Nav Bar text */
+.text {
+  text-align: left;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 10px;
+  margin-right: 400px;
+  width: 800px;
+}
+
+ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
 nav li {
-  display: inline-block;
-  margin-left: 70px;
+  display: center;
+  margin-left: 0px;
   padding-top: 30px;
   font-size: 15px;
   font-family: Roboto;
@@ -50,6 +110,22 @@ nav a:hover {
   color: #ff8a16;
 }
 
+.home {
+  width: 50px;
+}
+
+.contact {
+  width: 60px;
+}
+
+.about {
+  width: 50px;
+}
+
+.blog {
+  width: 80px;
+}
+
 /* Welcome text On Home Page */
 .welcome {
   text-align: center;
@@ -59,7 +135,7 @@ nav a:hover {
 }
 
 /* About Page */
-.about {
+.about1 {
   text-align: center;
   font-family: Roboto;
   font-size: 25px;
@@ -136,13 +212,13 @@ nav a:hover {
   height: 60px;
 }
 /* Blog Coming Soon */
-.blog {
+.blog1 {
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 25px;
   font-weight: 600;
 }
-.contact {
+.contact1 {
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 25px;
@@ -166,6 +242,10 @@ nav a:hover {
 a {
   text-decoration: none;
   color: currentColor;
+}
+
+.spacer {
+  padding: 30px;
 }
 
 /*nav{
