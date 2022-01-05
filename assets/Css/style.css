@@ -50,6 +50,11 @@ nav a:hover {
   color: #ff8a16;
 } */ /* Old Nav Bar Ends here */
 
+@font-face {
+    font-family: Roboto;
+    src: url(/assets/Fonts/Roboto-Black.ttf);
+}
+
 /* Nav Bar Starts Here */
 /* Flexbox Contatiner for Nav Bar */
 .flex-container1 {
