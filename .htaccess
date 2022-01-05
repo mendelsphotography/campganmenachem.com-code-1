@@ -1,0 +1,3 @@
+# ---- Render pages without urls
+Options +MultiViews
+RewriteRule ^([^\.]+)$ $contact.html [NC,L]
