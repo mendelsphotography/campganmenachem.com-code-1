@@ -1,9 +1,9 @@
 
 RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $contact.html [NC,L]
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^([^\.]+)$ $contact.html [NC,L]
 
 # ---- Render pages without urls
-#Options +MultiViews
+Options +MultiViews
 #RewriteRule ^([^\.]+)$ $contact.html [NC,L]
 
