@@ -179,10 +179,10 @@ nav a:hover {
   font-size: 30px;
 } /*end of Css Flexbox*/
 
-/*@font-face {
+@font-face {
     font-family: Lobster;
-    src: url(/assets/Font/Lobster.ttf);
-}*/
+    src: url(/assets/Fonts/Lobster.ttf);
+}
 
 /* Both Button styles */
 .button {
