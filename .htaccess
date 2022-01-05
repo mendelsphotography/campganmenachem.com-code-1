@@ -1,3 +1,9 @@
-# ---- Render pages without urls
-Options +MultiViews
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $contact.html [NC,L]
+
+# ---- Render pages without urls
+#Options +MultiViews
+#RewriteRule ^([^\.]+)$ $contact.html [NC,L]
+
