@@ -1,11 +1,6 @@
 * {
   margin: 0;
 }
-
-.container {
-  width: 80%;
-  margin: 0 auto;
-}
 /* Old Nav Bar Starts here */
 /*header::after {
   content: "";
@@ -50,52 +45,100 @@ nav a:hover {
   color: #ff8a16;
 } */ /* Old Nav Bar Ends here */
 
+@font-face {
+  font-family: Roboto;
+  src: url(/assets/fonts/Roboto-Black.ttf);
+}
+
 /* Nav Bar Starts Here */
 /* Flexbox Contatiner for Nav Bar */
+/*html {
+  background-color: #ffa032;
+  padding: 10px;
+  margin: 0;
+}*/
+
+/*body {
+  background-color: yellow;
+  padding: 10px;
+  margin: 0;
+}*/
+
 .flex-container1 {
   display: flex;
   flex-wrap: nowrap;
+  flex-flow: row;
+  /*background-color: #f073e1;*/
 }
 
 .flex-container1 > div {
-  width: 100px;
-  margin: 0px;
-  margin-left: 0px;
-  text-align: center;
-  line-height: 80px;
-  font-size: 30px;
+  max-width: 800px; /*800px*/
+  margin: 0px; /*10px*/
+  /*margin-left: 0px;
+  /*text-align: center;*/
+  line-height: 10px;
+  padding: 30px;
 }
+
 /* Logo */
+.nav-logo {
+  margin-top: 0px; /*15px*/
+  margin-left: 0px; /*80px*/
+  margin-right: 0px; /*0px*/
+  margin-bottom: 0px; /*15px*/
+  width: 60px; /*200px*/
+  height: 60px; /*100px*/
+  /*background-color: #f800db;*/
+  margin: 0px;
+  margin-right: 50px;
+}
+
 img {
-  margin-top: 15px;
-  margin-left: 80px;
-  margin-right: 0px;
-  margin-bottom: 15px;
-  max-width: 120px;
-  max-height: 120px;
+  max-width: 120px; /*120px*/
+  max-height: 120px; /*120px*/
+  /*margin-bottom: 0px; /*40px*/
+  margin-top: -15px; /*-45px*/
+  margin-left: 45px;
 }
 
 /* Nav Bar text */
-.text {
+.nav-text {
+  /*background-color: #f800db;*/
+  margin: 0px;
+  /*max-width: 500px;
+  max-height: 20px;*/
+  width: 380px; /*580px*/
+  padding: 0px;
+  margin-right: 100px; /*20px*/
   text-align: left;
   font-family: Roboto;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 600;
-  padding: 10px;
-  margin-right: 400px;
-  width: 800px;
+}
+
+h2 {
+  margin-left: 0px;
+  margin-right: 0px;
+  line-height: 80px; /*80px*/
+}
+.nav-empty-space {
+  /* background-color: #f800db;*/
+  width: 100px; /*80px*/
+  height: 80px; /*40px*/
+  margin: 0px; /*10px*/
 }
 
 ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  /*background-color: #f800db;*/
 }
 
 nav li {
-  display: center;
+  /*display: center;*/
   margin-left: 0px;
-  padding-top: 30px;
+  padding-top: 20px;
   font-size: 15px;
   font-family: Roboto;
   font-weight: 600;
@@ -110,20 +153,35 @@ nav a:hover {
   color: #ff8a16;
 }
 
-.home {
-  width: 50px;
+.nav-home {
+  /*background-color: #f800db;*/
+  width: 20px; /*80px*/
+  height: 50px; /*40px*/
+  margin: 0px; /*10px*/
+  margin-left: -50px;
 }
 
-.contact {
-  width: 60px;
+.nav-contact {
+  /* background-color: #f800db;*/
+  width: 20px; /*80px*/
+  height: 50px; /*50px*/
+  margin: 0px; /*20px*/
+  margin-left: 30px;
 }
 
-.about {
-  width: 50px;
+.nav-about {
+  /*background-color: #f800db;*/
+  width: 20px; /*50px*/
+  height: 50px; /*50px*/
+  margin: 0px; /*20px*/
+  margin-left: 30px;
 }
 
-.blog {
-  width: 80px;
+.nav-blog {
+  /*background-color: #f800db;*/
+  width: 20px; /*80px*/
+  height: 50px; /*50px*/
+  margin: 0px; /*20px*/
 }
 
 /* Welcome text On Home Page */
@@ -163,7 +221,7 @@ nav a:hover {
   grid-auto-flow: column;
 } */
 
-/*Css Flexbox*/
+/*Css Flexbox For Home Page Buttons*/
 .flex-container {
   display: flex;
   flex-wrap: nowrap;
@@ -178,6 +236,11 @@ nav a:hover {
   line-height: 75px;
   font-size: 30px;
 } /*end of Css Flexbox*/
+
+@font-face {
+  font-family: Lobster;
+  src: url(/assets/Fonts/Lobster.ttf);
+}
 
 /* Both Button styles */
 .button {
