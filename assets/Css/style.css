@@ -45,6 +45,11 @@ nav a:hover {
   color: #ff8a16;
 } */ /* Old Nav Bar Ends here */
 
+@font-face {
+  font-family: Roboto;
+  src: url(/assets/fonts/Roboto-Black.ttf);
+}
+
 /* Nav Bar Starts Here */
 /* Flexbox Contatiner for Nav Bar */
 /*html {
@@ -231,6 +236,11 @@ nav a:hover {
   line-height: 75px;
   font-size: 30px;
 } /*end of Css Flexbox*/
+
+@font-face {
+  font-family: Lobster;
+  src: url(/assets/fonts/Lobster.ttf);
+}
 
 /* Both Button styles */
 .button {
