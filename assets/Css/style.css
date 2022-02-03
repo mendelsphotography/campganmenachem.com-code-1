@@ -86,8 +86,8 @@ nav a:hover {
   margin-left: 0px; /*80px*/
   margin-right: 0px; /*0px*/
   margin-bottom: 0px; /*15px*/
-  width: 60px; /*200px*/
-  height: 60px; /*100px*/
+  width: 180px; /*200px*/
+  height: 192px; /*100px*/
   /*background-color: #f800db;*/
   margin: 0px;
   margin-right: 50px;
@@ -105,15 +105,18 @@ img {
 .nav-text {
   /*background-color: #f800db;*/
   margin: 0px;
-  /*max-width: 500px;
-  max-height: 20px;*/
-  width: 380px; /*580px*/
-  padding: 0px;
-  /*margin-right: 100px; /*20px*/
-  text-align: left;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 20px;
   font-weight: 600;
+  color: #000000;
+  line-height: 32px;
+  /*max-width: 500px;
+  max-height: 20px;*/
+  width: 400px; /*580px*/
+  /*height: 5px;
+  padding: 0px;
+  /*margin-right: 100px; /*20px*/
+  /* text-align: left;*/
 }
 
 h2 {
@@ -124,7 +127,7 @@ h2 {
 .nav-empty-space {
   /* background-color: #f800db;*/
   width: 100px; /*80px*/
-  height: 80px; /*40px*/
+  height: 0px; /*40px*/
   margin: 0px; /*10px*/
 }
 
@@ -138,9 +141,10 @@ ul {
 nav li {
   /*display: center;*/
   margin-left: 0px;
-  padding-top: 20px;
-  font-size: 15px;
-  font-family: Roboto;
+  padding-top: 30px;
+  font-family: roboto, sans-serif;
+  font-size: 17px;
+  line-height: 20px;
   font-weight: 600;
 }
 
@@ -155,18 +159,18 @@ nav a:hover {
 
 .nav-home {
   /*background-color: #f800db;*/
-  width: 20px; /*80px*/
-  height: 50px; /*40px*/
+  width: 70px; /*80px*/
+  height: 26px; /*40px*/
   margin: 0px; /*10px*/
-  margin-left: -50px;
+  margin-left: 50px;
 }
 
 .nav-contact {
   /* background-color: #f800db;*/
   width: 20px; /*80px*/
-  height: 50px; /*50px*/
+  height: 26px; /*50px*/
   margin: 0px; /*20px*/
-  margin-left: 30px;
+  /*margin-left: 30px;*/
 }
 
 .nav-about {
@@ -174,7 +178,7 @@ nav a:hover {
   width: 20px; /*50px*/
   height: 50px; /*50px*/
   margin: 0px; /*20px*/
-  margin-left: 30px;
+  /*margin-left: 30px;*/
 }
 
 .nav-blog {
@@ -187,15 +191,17 @@ nav a:hover {
 /* Welcome text On Home Page */
 .welcome {
   text-align: center;
-  font-family: Roboto;
-  font-size: 25px;
+  font-family: roboto, sans-serif;
+  font-size: 28px;
+  line-height: 28px;
   font-weight: 600;
+  color: #2d3748;
 }
 
 /* About Page */
 .about1 {
   text-align: center;
-  font-family: Roboto;
+  font-family: roboto, sans-serif;
   font-size: 25px;
   font-weight: 600;
 }
@@ -238,19 +244,20 @@ nav a:hover {
 } /*end of Css Flexbox*/
 
 @font-face {
-  font-family: "Lobster Two", cursive;
-  src: url(/assets/fonts/Lobster_Regular.ttf);
+  font-family: Lobster;
+  src: url(/assets/fonts/Lobster.ttf);
 }
 
 /* Both Button styles */
 .button {
   border: none;
-  color: white;
+  color: #ffffff;
   padding: 15px 32px;
   text-decoration: none;
-  font-family: "Lobster Two", cursive;
+  font-family: Lobster, sans-serif;
   font-size: 25px;
-  font-weight: 600;
+  line-height: 25px;
+  font-weight: 500;
   margin: 4px 2px;
   cursor: pointer;
   width: 60%;
@@ -277,20 +284,20 @@ nav a:hover {
 /* Blog Coming Soon */
 .blog1 {
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: roboto, sans-serif;
   font-size: 25px;
   font-weight: 600;
 }
 .contact1 {
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: roboto, sans-serif;
   font-size: 25px;
   font-weight: 600;
 }
 
 .younger {
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: roboto, sans-serif;
   font-size: 25px;
   font-weight: 600;
 }
