@@ -238,8 +238,8 @@ nav a:hover {
 } /*end of Css Flexbox*/
 
 @font-face {
-  font-family: Lobster;
-  src: url(/assets/fonts/Lobster.ttf);
+  font-family: "Lobster Two", cursive;
+  src: url(/assets/fonts/Lobster_Regular.ttf);
 }
 
 /* Both Button styles */
